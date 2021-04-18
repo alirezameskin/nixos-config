@@ -77,6 +77,8 @@
       # Enable the Gnome3 Desktop Environment.
       displayManager.gdm.enable = true;
       desktopManager.gnome3.enable = true;
+      # Disable wayland, since screen sharing is not working
+      displayManager.gdm.wayland = false;
     };
     
   };
